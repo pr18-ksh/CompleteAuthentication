@@ -3,10 +3,6 @@ from django.urls import path,include
 from api.views import AuthView
 from api.views import ResetPasswordView, ResetPasswordConfirmView 
 from django.views.generic import TemplateView
-from Emp.views import EmpListView
-
-
-
 
 urlpatterns = [
     path('admin/', admin.site.urls),
